@@ -1,0 +1,595 @@
+[debug] [2020-02-16T03:22:59.682Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:22:59.684Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:22:59.684Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:22:59.684Z] Platform:      win32
+[debug] [2020-02-16T03:22:59.684Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:22:59.686Z] Time:          Sat Feb 15 2020 22:22:59 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:22:59.686Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:22:59.686Z] 
+[debug] [2020-02-16T03:22:59.694Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:22:59.694Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:22:59.694Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:22:59.696Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:23:00.243Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:23:00.245Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:23:00.903Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:23:00.906Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:23:01.555Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2020-02-16T03:23:39.864Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:23:39.867Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:23:39.868Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:23:39.868Z] Platform:      win32
+[debug] [2020-02-16T03:23:39.868Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:23:39.870Z] Time:          Sat Feb 15 2020 22:23:39 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:23:39.871Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:23:39.871Z] 
+[debug] [2020-02-16T03:23:39.885Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:23:39.885Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:23:39.886Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:23:39.889Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:23:40.348Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:23:40.354Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:23:40.698Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:23:40.705Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:23:41.031Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5005
+[debug] [2020-02-16T03:23:57.400Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:23:57.403Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:23:57.404Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:23:57.404Z] Platform:      win32
+[debug] [2020-02-16T03:23:57.404Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:23:57.406Z] Time:          Sat Feb 15 2020 22:23:57 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:23:57.406Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:23:57.406Z] 
+[debug] [2020-02-16T03:23:57.419Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:23:57.420Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:23:57.420Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:23:57.422Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:23:57.861Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:23:57.862Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:23:58.230Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:23:58.234Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:23:58.587Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5010
+[debug] [2020-02-16T03:24:57.734Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:24:57.738Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:24:57.738Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:24:57.738Z] Platform:      win32
+[debug] [2020-02-16T03:24:57.738Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:24:57.740Z] Time:          Sat Feb 15 2020 22:24:57 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:24:57.740Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:24:57.740Z] 
+[debug] [2020-02-16T03:24:57.748Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:24:57.749Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:24:57.749Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:24:57.751Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:24:58.441Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:24:58.447Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:24:58.897Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:24:58.903Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:24:59.318Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5015
+[debug] [2020-02-16T03:26:16.075Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:26:16.077Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:26:16.077Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:26:16.077Z] Platform:      win32
+[debug] [2020-02-16T03:26:16.077Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:26:16.079Z] Time:          Sat Feb 15 2020 22:26:16 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:26:16.079Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:26:16.079Z] 
+[debug] [2020-02-16T03:26:16.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:26:16.088Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:26:16.088Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:26:16.089Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:26:16.523Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:26:16.524Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:26:16.882Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:26:16.888Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:26:17.302Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5020
+[debug] [2020-02-16T03:27:47.443Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:27:47.446Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:27:47.446Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:27:47.446Z] Platform:      win32
+[debug] [2020-02-16T03:27:47.446Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:27:47.448Z] Time:          Sat Feb 15 2020 22:27:47 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:27:47.448Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:27:47.448Z] 
+[debug] [2020-02-16T03:27:47.456Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:27:47.456Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:27:47.457Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:27:47.458Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:27:48.119Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:27:48.121Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:27:48.562Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:27:48.565Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:27:48.883Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5025
+[debug] [2020-02-16T03:29:17.566Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:29:17.568Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:29:17.568Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:29:17.569Z] Platform:      win32
+[debug] [2020-02-16T03:29:17.569Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:29:17.571Z] Time:          Sat Feb 15 2020 22:29:17 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:29:17.571Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:29:17.571Z] 
+[debug] [2020-02-16T03:29:17.579Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:29:17.580Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:29:17.580Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:29:17.581Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:29:18.269Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:29:18.271Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:29:18.895Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:29:18.900Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:29:19.424Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5030
+[debug] [2020-02-16T03:30:10.334Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:30:10.338Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:30:10.339Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:30:10.339Z] Platform:      win32
+[debug] [2020-02-16T03:30:10.339Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:30:10.341Z] Time:          Sat Feb 15 2020 22:30:10 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:30:10.341Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:30:10.341Z] 
+[debug] [2020-02-16T03:30:10.351Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:30:10.352Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:30:10.352Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:30:10.355Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:30:10.682Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:30:10.684Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:30:10.944Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:30:10.947Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:30:11.235Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5035
+[debug] [2020-02-16T03:32:49.120Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:32:49.122Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:32:49.123Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:32:49.123Z] Platform:      win32
+[debug] [2020-02-16T03:32:49.123Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:32:49.124Z] Time:          Sat Feb 15 2020 22:32:49 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:32:49.124Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:32:49.124Z] 
+[debug] [2020-02-16T03:32:49.132Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:32:49.133Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:32:49.133Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:32:49.135Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-16T03:32:49.135Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-16T03:32:49.996Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:32:50.003Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:32:50.704Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:32:50.708Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:32:51.172Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:32:51.174Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:32:51.719Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2020-02-16T03:33:49.052Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:33:49.054Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:33:49.055Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:33:49.055Z] Platform:      win32
+[debug] [2020-02-16T03:33:49.055Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:33:49.057Z] Time:          Sat Feb 15 2020 22:33:49 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:33:49.057Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:33:49.057Z] 
+[debug] [2020-02-16T03:33:49.067Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:33:49.067Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:33:49.067Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:33:49.069Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:33:49.455Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:33:49.460Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:33:49.768Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:33:49.774Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:33:50.269Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5005
+[debug] [2020-02-16T03:35:22.884Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:35:22.886Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:35:22.886Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:35:22.886Z] Platform:      win32
+[debug] [2020-02-16T03:35:22.887Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:35:22.888Z] Time:          Sat Feb 15 2020 22:35:22 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:35:22.888Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:35:22.888Z] 
+[debug] [2020-02-16T03:35:22.896Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:35:22.896Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:35:22.896Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:35:22.898Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:35:23.432Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:35:23.436Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:35:23.903Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:35:23.905Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:35:24.608Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5010
+[debug] [2020-02-16T03:36:31.129Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:36:31.132Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:36:31.132Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:36:31.132Z] Platform:      win32
+[debug] [2020-02-16T03:36:31.132Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:36:31.133Z] Time:          Sat Feb 15 2020 22:36:31 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:36:31.133Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:36:31.133Z] 
+[debug] [2020-02-16T03:36:31.141Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:36:31.141Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:36:31.141Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:36:31.143Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:36:31.571Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:36:31.576Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:36:31.911Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:36:31.915Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:36:32.440Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5015
+[debug] [2020-02-16T03:37:02.891Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:37:02.893Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:37:02.893Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:37:02.893Z] Platform:      win32
+[debug] [2020-02-16T03:37:02.893Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:37:02.895Z] Time:          Sat Feb 15 2020 22:37:02 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:37:02.895Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:37:02.895Z] 
+[debug] [2020-02-16T03:37:02.903Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:37:02.903Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:37:02.903Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:37:02.905Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:37:03.226Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:37:03.228Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:37:03.445Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:37:03.448Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:37:03.994Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5020
+[debug] [2020-02-16T03:38:05.373Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:38:05.375Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:38:05.376Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:38:05.376Z] Platform:      win32
+[debug] [2020-02-16T03:38:05.376Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:38:05.377Z] Time:          Sat Feb 15 2020 22:38:05 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:38:05.377Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:38:05.377Z] 
+[debug] [2020-02-16T03:38:05.385Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:38:05.386Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:38:05.386Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:38:05.388Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:38:05.793Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:38:05.797Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:38:06.230Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:38:06.233Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:38:06.550Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5025
+[debug] [2020-02-16T03:42:52.038Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:42:52.040Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:42:52.040Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:42:52.040Z] Platform:      win32
+[debug] [2020-02-16T03:42:52.040Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:42:52.042Z] Time:          Sat Feb 15 2020 22:42:52 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:42:52.042Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:42:52.042Z] 
+[debug] [2020-02-16T03:42:52.050Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:42:52.051Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:42:52.051Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:42:52.053Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:42:52.838Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:42:52.842Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:42:53.721Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:42:53.724Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:42:54.282Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5030
+[debug] [2020-02-16T03:43:51.368Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:43:51.371Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:43:51.371Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:43:51.371Z] Platform:      win32
+[debug] [2020-02-16T03:43:51.371Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:43:51.373Z] Time:          Sat Feb 15 2020 22:43:51 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:43:51.373Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:43:51.373Z] 
+[debug] [2020-02-16T03:43:51.383Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:43:51.384Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:43:51.384Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:43:51.386Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:43:51.852Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:43:51.857Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:43:52.130Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:43:52.134Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:43:52.564Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5035
+[debug] [2020-02-16T03:49:17.084Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:49:17.087Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:49:17.087Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:49:17.087Z] Platform:      win32
+[debug] [2020-02-16T03:49:17.087Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:49:17.088Z] Time:          Sat Feb 15 2020 22:49:17 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:49:17.088Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:49:17.088Z] 
+[debug] [2020-02-16T03:49:17.096Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:49:17.096Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:49:17.096Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:49:17.098Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:49:17.526Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:49:17.530Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:49:17.999Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:49:18.002Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:49:18.503Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2020-02-16T03:50:13.769Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:50:13.772Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:50:13.772Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:50:13.772Z] Platform:      win32
+[debug] [2020-02-16T03:50:13.772Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:50:13.773Z] Time:          Sat Feb 15 2020 22:50:13 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:50:13.773Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:50:13.774Z] 
+[debug] [2020-02-16T03:50:13.781Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:50:13.782Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:50:13.782Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:50:13.784Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:50:14.156Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:50:14.160Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:50:14.385Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:50:14.388Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:50:14.800Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5005
+[debug] [2020-02-16T03:55:27.034Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:55:27.038Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:55:27.039Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:55:27.039Z] Platform:      win32
+[debug] [2020-02-16T03:55:27.039Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:55:27.041Z] Time:          Sat Feb 15 2020 22:55:27 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:55:27.041Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:55:27.042Z] 
+[debug] [2020-02-16T03:55:27.056Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:55:27.057Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:55:27.057Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:55:27.059Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:55:27.549Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:55:27.553Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:55:27.908Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:55:27.911Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:55:28.607Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5010
+[debug] [2020-02-16T03:57:34.650Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:57:34.653Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T03:57:34.653Z] CLI Version:   7.13.0
+[debug] [2020-02-16T03:57:34.653Z] Platform:      win32
+[debug] [2020-02-16T03:57:34.653Z] Node Version:  v13.8.0
+[debug] [2020-02-16T03:57:34.655Z] Time:          Sat Feb 15 2020 22:57:34 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T03:57:34.655Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T03:57:34.655Z] 
+[debug] [2020-02-16T03:57:34.663Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T03:57:34.663Z] > authorizing via signed-in user
+[debug] [2020-02-16T03:57:34.663Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T03:57:34.665Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T03:57:35.013Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T03:57:35.018Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T03:57:35.232Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T03:57:35.234Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T03:57:36.001Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5015
+[debug] [2020-02-16T04:05:27.356Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T04:05:27.359Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brand\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-16T04:05:27.359Z] CLI Version:   7.13.0
+[debug] [2020-02-16T04:05:27.359Z] Platform:      win32
+[debug] [2020-02-16T04:05:27.359Z] Node Version:  v13.8.0
+[debug] [2020-02-16T04:05:27.361Z] Time:          Sat Feb 15 2020 23:05:27 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-16T04:05:27.361Z] ----------------------------------------------------------------------
+[debug] [2020-02-16T04:05:27.361Z] 
+[debug] [2020-02-16T04:05:27.369Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-16T04:05:27.369Z] > authorizing via signed-in user
+[debug] [2020-02-16T04:05:27.369Z] [iam] checking project sensor-4876a for permissions ["firebase.projects.get"]
+[debug] [2020-02-16T04:05:27.372Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sensor-4876a:testIamPermissions  
+
+[debug] [2020-02-16T04:05:27.719Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-16T04:05:27.720Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a  
+ 
+[debug] [2020-02-16T04:05:27.972Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\brand\Desktop\Sensor'...
+[info] 
+[debug] [2020-02-16T04:05:27.976Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sensor-4876a/webApps/-/config  
+ 
+[debug] [2020-02-16T04:05:28.390Z] <<< HTTP RESPONSE 200
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[warn] !  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5020
