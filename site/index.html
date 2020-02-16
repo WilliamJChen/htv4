@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Heatmaps</title>
+        <style>
+          /* Always set the map height explicitly to define the size of the div
+           * element that contains the map. */
+          #map {
+            height: 100%;
+          }
+
+          /* Optional: Makes the sample page fill the window. */
+          html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+          }
+          #floating-panel {
+            position: absolute;
+            top: 20px;
+            left: 25%;
+            z-index: 5;
+            background-color: #013220;
+            padding: 5px;
+            text-align: center;
+            font-family: 'Roboto','sans-serif';
+            line-height: 30px;
+            padding-left: 10px;
+          }
+          #floating-panel {
+            background-color: #013220;
+            left: 25%;
+            padding: 5px;
+            position: absolute;
+            top: 20px;
+            z-index: 5;
+          }
+          .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+          }
+
+        </style>
+         <!-- The core Firebase JS SDK is always required and must be listed first -->
+         <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+         <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-database.js"></script>
+     <script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuJ46scLkFMtiD_AUhD-qquoQieQA9OXM&libraries=visualization"></script>
+
+    </head>
+    <body>
+
+        <div id="floating-panel">
+            <button class="button" onclick="toggleHeatmap()">Toggle Heatmap</button>
+            <button class="button" onclick="changeGradient()">Change gradient</button>
+            <button class="button" onclick="changeRadius()">Change radius</button>
+            <button class="button" onclick="changeOpacity()">Change opacity</button>
+            <button class="button" onclick="toggleSquirrels()">Toggle Squirrels</button>
+            <button class="button" onclick="toggleElephants()">Toggle Elephants</button>
+          </div>
+          <div id="map"></div>
+        <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAuJ46scLkFMtiD_AUhD-qquoQieQA9OXM",
+            authDomain: "sensor-4876a.firebaseapp.com",
+            databaseURL: "https://sensor-4876a.firebaseio.com",
+            projectId: "sensor-4876a",
+            storageBucket: "sensor-4876a.appspot.com",
+            messagingSenderId: "660907194043",
+            appId: "1:660907194043:web:7b3ec7f37e61865208db9e",
+            measurementId: "G-TJBC950L89"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const database = firebase.database();
+        var ref = database.ref('Points');
+        ref.on('value', gotData, errData);
+        
+        function gotData(data){
+            var points = data.val();
+            var keys = Object.keys(points);
+            for(var i = 0;i<keys.length;i++){
+                var k = keys[i];
+                var lat = points[k].lat;
+                var long = points[k].long
+                console.log(lat, long)
+                var heatData =  {location: new google.maps.LatLng(long,lat), weight: 10};
+                if(points[k].animal == "squirrel"){
+                  heatmap.getData().clear();
+                  heatmap.getData().push(heatData);
+                } else {
+                  heatmap1.getData().clear();
+                  heatmap1.getData().push(heatData);
+                }
+            }
+        
+        }
+
+        function errData(err){
+           console.log('Error!');
+           console.log(err.val());
+        }
+
+        function toggleSquirrels(){
+          heatmap.setMap(heatmap.getMap() ? null : map);
+        }
+
+        function toggleElephants(){
+          heatmap1.setMap(heatmap1.getMap() ? null : map);
+        }
+
+        function initMap(data) {
+          map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 5,
+          center: {lat: 0.0023, lng: 78.4559,},
+          mapTypeId: 'satellite'
+        });
+        heatmap = new google.maps.visualization.HeatmapLayer({
+          data: getPoints(),
+          map: map
+        });
+        heatmap1 = new google.maps.visualization.HeatmapLayer({
+          data: [],
+          map: map
+        });
+       
+      }
+
+      function toggleHeatmap() {
+        heatmap.setMap(heatmap.getMap() ? null : map);
+        heatmap1.setMap(heatmap1.getMap() ? null : map);
+      }
+
+      function changeGradient() {
+        var gradient = [
+          'rgba(0, 255, 255, 0)',
+          'rgba(0, 255, 255, 1)',
+          'rgba(0, 191, 255, 1)',
+          'rgba(0, 127, 255, 1)',
+          'rgba(0, 63, 255, 1)',
+          'rgba(0, 0, 255, 1)',
+          'rgba(0, 0, 223, 1)',
+          'rgba(0, 0, 191, 1)',
+          'rgba(0, 0, 159, 1)',
+          'rgba(0, 0, 127, 1)',
+          'rgba(63, 0, 91, 1)',
+          'rgba(127, 0, 63, 1)',
+          'rgba(191, 0, 31, 1)',
+          'rgba(255, 0, 0, 1)'
+        ]
+        heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
+        heatmap1.set('gradient', heatmap1.get('gradient') ? null : gradient);
+      }
+
+      function changeRadius() {
+        heatmap.set('radius', heatmap.get('radius') ? null : 30);
+        heatmap1.set('radius', heatmap1.get('radius') ? null : 30);
+      }
+
+      function changeOpacity() {
+        heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
+        heatmap1.set('opacity', heatmap1.get('opacity') ? null : 0.2);
+      }
+
+      // Heatmap data: 500 Points
+      function getPoints() {
+        points = [];
+        points[0] = {location: new google.maps.LatLng(37.782842, -122.443688), weight: 10};
+        return points;
+      }
+
+ 
+      
+       
+        </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuJ46scLkFMtiD_AUhD-qquoQieQA9OXM&libraries=visualization&callback=initMap">
+      </script>
+    </body>
+</html>
